@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Flip Flashcard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <a class="active" href="#">My Deck</a>
+        <a href="#add-deck" id="open-popup">Add Deck</a>
+        <a href="#contact">Settings</a>
+        <a href="#about">About</a>
+        <img src="https://static.vecteezy.com/system/resources/previews/019/879/186/non_2x/user-icon-on-transparent-background-free-png.png" class="my-account-image" alt="My Account">
+    </div>
+    
+    <div class="flashcard-container">
+        <div class="flashcard" onclick="flipCard()">
+            <div class="front">Click to Flip</div>
+            <div class="back">This is the back content!</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

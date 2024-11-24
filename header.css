@@ -1,0 +1,58 @@
+.header {
+    overflow: hidden;
+    background-color: #7faecf;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+.header a:hover {
+    background-color: #5d7f97;
+  }
+  
+.header a.active {
+    background-color: #0e6090;
+    color: white;
+  }
+
+.footer { 
+    position: absolute; 
+    bottom: 1vh; 
+    right: 1vh; 
+    z-index: 10;
+}
+
+.my-account-image {
+    right: 100px;
+    width: 60px;
+    right: 0;
+    padding-top: 7.5px;
+    display: block;
+    position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+    .header a {
+        font-size: 3.5vw;
+    }
+
+    .my-account-image {
+        bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .header a {
+        font-size: 3.8vw;
+    }
+}
